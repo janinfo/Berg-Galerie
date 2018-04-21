@@ -1,0 +1,117 @@
+/* Allgmein */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+/* Background Allgmein */
+.bg {
+
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.01;
+    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.bg:hover {
+    opacity: 0.1;
+
+}
+.black {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    z-index: 9;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: white;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 230px;
+    width: 100%
+}
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    color: white;
+    left: 0;
+    text-align:center;
+    top: 230px;
+    width: 100%
+}
+
+
+/* Text Fade-in */
+.fadein h1{
+
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+
+.fadein p{
+
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+
+.fadein p.late{
+
+    animation: fadein 8s;
+    -moz-animation: fadein 8s; /* Firefox */
+    -webkit-animation: fadein 8s; /* Safari and Chrome */
+    -o-animation: fadein 8s; /* Opera */
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
