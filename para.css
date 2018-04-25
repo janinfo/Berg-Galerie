@@ -1,16 +1,14 @@
-.bg {
+.back-black {
 
     /* Full height */
     height: 100%; 
     width: 100%;
+    background-color: black
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.01;
-    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
-    transition: opacity 1s;
+.back-image {
+  opacity: 0.3;
+  width: 103%;
 }
 
 
@@ -77,49 +75,60 @@
     font-size: 2em;
   }
 
+  .header {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: -999;
+    color: white;
+    font-size: 0.7em;
+  }
+
+
 
 /* Paralax Mountain Layers */
 
   .parallax__layer--9 {
-    -webkit-transform: translateZ(200px) scale(.33);
-    transform: translateZ(200px) scale(.33);
+    -webkit-transform: translateZ(200px) scale(.4);
+    transform: translateZ(200px) scale(.4);
     z-index: -1;
-    top: 100px;
+    top: 400px;
   }
 
   .parallax__layer--8 {
-    -webkit-transform: translateZ(180px) scale(.45);
-    transform: translateZ(180px) scale(.45);
+    -webkit-transform: translateZ(180px) scale(.4);
+    transform: translateZ(180px) scale(.4);
     z-index: -2;
+    top: 550px;
   }
 
   .parallax__layer--7 {
-    -webkit-transform: translateZ(150px) scale(.5);
-    transform: translateZ(150px) scale(.5);
+    -webkit-transform: translateZ(150px) scale(.65);
+    transform: translateZ(150px) scale(.65);
     z-index: -3;
+    top: -50px;
   }
 
   .parallax__layer--6 {
-    -webkit-transform: translateZ(100px) scale(.56);
-    transform: translateZ(100px) scale(.56);
+    -webkit-transform: translateZ(100px) scale(.66);
+    transform: translateZ(100px) scale(.66);
     z-index: -4;
   }
 
   .parallax__layer--5 {
-    -webkit-transform: translateZ(80px) scale(.61);
-    transform: translateZ(80px) scale(.61);
+    -webkit-transform: translateZ(80px) scale(.8);
+    transform: translateZ(80px) scale(.8);
     z-index: -5;
   }
 
   .parallax__layer--4 {
-    -webkit-transform: translateZ(50px) scale(.7);
-    transform: translateZ(50px) scale(.7);
+    -webkit-transform: translateZ(50px) scale(.85);
+    transform: translateZ(50px) scale(.85);
     z-index: -6;
   }
 
   .parallax__layer--3 {
-    -webkit-transform: translateZ(30px) scale(.8);
-    transform: translateZ(30px) scale(.8);
+    -webkit-transform: translateZ(30px) scale(.9);
+    transform: translateZ(30px) scale(.9);
     z-index: -7;
   }
 
@@ -139,6 +148,7 @@
     -webkit-transform: translateZ(-600px) scale(3);
     transform: translateZ(-600px) scale(3);
     z-index: -10;
+    top: -300px;
   }
 
   
@@ -178,14 +188,27 @@
   --------------------------------------------- */
 
   #group1 {
-    z-index: 5; /* slide over group 2 */
+    z-index: 10; /* slide over group 2 */
   }
 
   #group2 {
-    z-index: 3; /* slide under groups 1 and 3 */
+    z-index: 20; /* slide under groups 1 and 3 */
   }
-  #group2 .parallax__layer--back {
-    /*background: rgb(123,210,102);*/
+
+  #group1 .parallax__layer--fore {
+    background: rgb(255,0,0);
+    /*background-image: url("Bilder/Mona_Lisa-bw.png");*/
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
   }
 
   #group3 {
