@@ -150,7 +150,7 @@ header h3 {
     height: 200px;
     /*border-radius: 50%;*/
     /*background: red;*/
-    background-image: url("../../../Bilder/paint_orange.png");
+    background-image: url("../images/paint_orange.png");
     margin-left: 180px;
     margin-top: 200px;
   }
@@ -159,14 +159,14 @@ header h3 {
     height: 60px;
     /*background: #eea265;*/
     border-radius: 12px;
-    background-image: url("../../../Bilder/paint_magenta.png");
+    background-image: url("../images/paint_magenta.png");
     margin-left: -30px;
     margin-top: 400px;
   }
   .sm-purple {
     width: 500px;
     height: 500px;
-    background-image: url("../../../Bilder/paint_blue.png");
+    background-image: url("../images/paint_blue.png");
     opacity: 0.7;
     /*border-radius: 12px;*/
     margin-left: -30px;
@@ -175,7 +175,7 @@ header h3 {
   .xs-green {
     width: 60px;
     height: 60px;
-    background-image: url("../../../Bilder/paint_green.png");
+    background-image: url("../images/paint_green.png");
     border-radius: 12px;
     margin-left: -30px;
     margin-top: 400px;
@@ -184,7 +184,7 @@ header h3 {
     width: 160px;
     height: 160px;
     /*background: red;*/
-    background-image: url("../../../Bilder/paint_grey.png");
+    background-image: url("../images/paint_grey.png");
     border-radius: 12px;
     margin-left: -60px;
     margin-top: 10px;
@@ -192,7 +192,7 @@ header h3 {
   .lg-purple {
     width: 600px;
     height: 600px;
-    background-image: url("../../../Bilder/paint_rose.png");
+    background-image: url("../images/paint_rose.png");
     border-radius: 12px;
     margin-left: 57px;
     margin-top: 60px;
