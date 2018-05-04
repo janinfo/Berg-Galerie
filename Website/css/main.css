@@ -430,6 +430,10 @@ header h3 {
       display: none;
     }
 
+    .h1 {
+      font-style: 60px;
+    }
+
   }
 
 
